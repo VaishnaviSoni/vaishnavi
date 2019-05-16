@@ -4,6 +4,8 @@ int main()
 {
     int i,j,a[100],n,temp;
     scanf("%d",&n);
+    if((n<=1000) && (n>=1)){
+	
     for(i=0;i<n;i++)
     {
         scanf("%d",&a[i]);
@@ -22,4 +24,7 @@ int main()
     }
     for(i=0;i<n;i++)
     printf("%d",a[i]);
+}
+else{printf("invalid");
+}
 }
